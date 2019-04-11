@@ -1,0 +1,46 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+/bin/
+
+.attach*
+
+### Azure Functions ###
+/azure-maven-archetypes/
+/azure-maven-plugins/
+/ciTestDir/*
+/Azure.Functions.Cli/*
+/azure-functions-java-worker/
+/obj/
+*.cache
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VSCode ###
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
